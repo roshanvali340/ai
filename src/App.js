@@ -51,7 +51,7 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar">
-        <div className="navbar-brand">VAPI</div>
+        <div className="navbar-brand">Aishaala</div>
         <div className="hamburger" onClick={toggleNav}>
           <i className="fas fa-bars"></i>
         </div>
@@ -64,7 +64,7 @@ function App() {
         </ul>
       </nav>
       <div className="main-content">
-        <h1>Voice AI for the developers</h1>
+        <h1>AI Assistant for Teachers & Students</h1>
         <p>
           Vapi lets developers build, test, and deploy voice agents in minutes
           rather than months.
@@ -75,7 +75,7 @@ function App() {
           </div>
         </div>
         <button className="try-it-button">Give it a try!</button>
-        <button className="try-free-button">Try for free</button>
+        
         <button className="ask-ai-button">
           <i className="fas fa-robot"></i> Ask AI
         </button>
